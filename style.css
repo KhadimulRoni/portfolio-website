@@ -36,3 +36,14 @@ h2{
     background-repeat: no-repeat;
     background-position: right;
 }
+.download-button{
+    text-decoration: none;
+    background-image: linear-gradient(45deg,rgb(253, 128, 82), orangered);
+    padding: 10px 15px;
+    border-radius:5px ;
+    color: white;
+}
+.big{
+    margin-top: 5%;
+    margin-right: 7%;
+}
