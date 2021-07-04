@@ -1,4 +1,5 @@
 body{
+    margin: 0;
     font-family: 'Poppins', sans-serif;
     background-image: url(top-banner.png);
     background-repeat: no-repeat;
@@ -19,6 +20,9 @@ span{
 }
 h2{
     font-size: 40px;
+}
+p{
+    color: gray;
 }
 .link-button{
     text-decoration: none;
@@ -51,13 +55,29 @@ h2{
     background-image: url(exp-bg.png);
     background-repeat: no-repeat;
     background-position: left;
+    margin: 7% 0;
 }
 .web-dev{
     width: 50%;
-    padding-left: 7%;
+    padding-left: 3%;
+    padding-bottom: 5%;
     box-shadow: 10px 10px 40px gray;
-    margin: 3%;
+    margin-left: 4%;
+    margin-right: 4%;
 }
-#Stack{
-    padding-bottom: 3%;
+#baby{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue,rgb(86, 179, 255));
+    border-image-slice: 1;
+    
+}
+#stack{
+    border-left: 7px solid;
+    border-image: linear-gradient(rgb(245, 131, 89),orangered);
+    border-image-slice: 1;
+    
+}
+footer{
+    text-align: center;
+    font-size: 13px;
 }
