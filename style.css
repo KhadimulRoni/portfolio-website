@@ -65,18 +65,20 @@ p{
     box-shadow: 10px 10px 40px gray;
     margin-left: 4%;
     margin-right: 4%;
-    border-radius: 2%;
+    
 }
 #baby{
-    border-left: 7px solid;
-    border-image: linear-gradient(blue,rgb(86, 179, 255));
-    border-image-slice: 1;
+    background: linear-gradient(#fff,#fff) padding-box, linear-gradient(blue,red) border-box;
+    border-left: 8px  solid transparent;
+    border-right: 8px  solid transparent;
+    border-radius: 3%;
     
 }
 #stack{
-    border-left: 7px solid;
-    border-image: linear-gradient(rgb(245, 131, 89),orangered);
-    border-image-slice: 1;
+    background: linear-gradient(#fff,#fff) padding-box, linear-gradient(red,blue) border-box;
+    border-left: 8px  solid transparent;
+    border-right: 8px  solid transparent;
+    border-radius: 3%;
     
 }
 footer{
