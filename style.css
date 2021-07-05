@@ -41,6 +41,7 @@ p{
     background-image: url(dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+    margin-top: 4%;
 }
 .download-button{
     text-decoration: none;
@@ -52,7 +53,6 @@ p{
 }
 
 .big{
-    margin-top: 5%;
     margin-right: 7%;
 }
 .experiance{
