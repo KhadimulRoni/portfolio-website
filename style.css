@@ -16,7 +16,8 @@ h1{
     font-size: 50px;
 }
 span{
-    color: orangered;
+    animation: movew 2s linear infinite;
+    animation-direction: alternate;
 }
 h2{
     font-size: 40px;
@@ -26,10 +27,11 @@ p{
 }
 .link-button{
     text-decoration: none;
-    background-image: linear-gradient(45deg,rgb(253, 128, 82), orangered);
     padding: 10px 15px;
     border-radius:5px ;
     color: white;
+    animation: move 2s linear infinite;
+    animation-direction: alternate;
 }
 .khadimul img{
     width: 100%;
@@ -42,11 +44,13 @@ p{
 }
 .download-button{
     text-decoration: none;
-    background-image: linear-gradient(45deg,rgb(253, 128, 82), orangered);
     padding: 10px 15px;
     border-radius:5px ;
     color: white;
+    animation: move 2s linear infinite;
+    animation-direction: alternate;
 }
+
 .big{
     margin-top: 5%;
     margin-right: 7%;
@@ -84,4 +88,12 @@ p{
 footer{
     text-align: center;
     font-size: 13px;
+}
+@keyframes move{
+    from {background-color: red;}
+    to {background-color: blue;}
+}
+@keyframes movew{
+    from {color: red;}
+    to {color: blue;}
 }
